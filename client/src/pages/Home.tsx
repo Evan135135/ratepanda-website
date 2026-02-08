@@ -98,12 +98,12 @@ export default function Home() {
             <div className="space-y-8 max-w-2xl pr-0 md:pr-32">
               <div className="space-y-4">
                 <h1 className="text-5xl md:text-6xl font-display text-foreground leading-tight">
-                  Pricing Automation for
+                  Automatic pricing for
                   <br />
-                  <span className="text-primary">Your PMS</span>
+                  <span className="text-primary">hotels</span>
                 </h1>
                 <p className="text-lg text-muted-foreground">
-                  White-label pricing automation your hotel customers will love. Bundle it with your platform and let RatePanda handle the complexity.
+                  White-label pricing automation hotels will love. Bundle it with your platform and let RatePanda handle the complexity.
                 </p>
               </div>
 

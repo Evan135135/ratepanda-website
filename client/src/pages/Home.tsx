@@ -73,11 +73,20 @@ export default function Home() {
       </nav>
 
       {/* Hero Section - Clean White Background with Panda at Top Right */}
-      <section className="relative bg-white overflow-visible">
+      <section className="relative bg-white overflow-hidden">
+        {/* Panda background for mobile/tablet - faded */}
+        <div className="absolute -top-32 -right-20 md:hidden w-96 h-auto opacity-20 pointer-events-none">
+          <img
+            src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663274380395/nMRAWAXxtAyPdhXx.png"
+            alt="RatePanda Mascot Background"
+            className="w-full h-auto"
+          />
+        </div>
+
         <div className="relative z-10 container py-20 md:py-32">
           <div className="relative">
-            {/* Panda at top right - positioned absolutely */}
-            <div className="absolute -top-24 right-0 md:-top-32 md:right-0 w-64 md:w-96 lg:w-[500px] h-auto">
+            {/* Panda at top right - visible on desktop only */}
+            <div className="hidden md:block absolute -top-32 right-0 lg:-top-40 lg:right-0 w-96 lg:w-[500px] h-auto">
               <img
                 src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663274380395/nMRAWAXxtAyPdhXx.png"
                 alt="RatePanda Mascot"

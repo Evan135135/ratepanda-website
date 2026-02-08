@@ -149,9 +149,9 @@ export default function Home() {
             <div className="group rounded-2xl bg-white p-8 border border-border hover:shadow-lg transition-all duration-300">
               <div className="mb-6 flex justify-center">
                 <img
-                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663274380395/YTfIocbxhPEkBPvt.png"
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663274380395/gOHWIfjTduPRaLiz.png"
                   alt="Reliability"
-                  className="max-w-full h-auto" style={{maxHeight: '160px'}}
+                  className="w-auto" style={{height: '150px'}}
                 />
               </div>
               <h3 className="text-2xl font-heading text-foreground mb-3 text-center">

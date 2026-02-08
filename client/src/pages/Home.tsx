@@ -1,4 +1,4 @@
-/**
+/*
  * RatePanda Home Page - PMS-Focused
  * Design: Playful Minimalism with Organic Curves
  * Audience: Property Management System (PMS) providers
@@ -34,26 +34,21 @@ export default function Home() {
         </div>
       </nav>
 
-      {/* Hero Section with Organic Background */}
-      <section className="relative overflow-hidden">
-        {/* Organic background image */}
-        <div
-          className="absolute inset-0 z-0"
-          style={{
-            backgroundImage: "url('https://private-us-east-1.manuscdn.com/sessionFile/nvQi6OSDUbYduKRWmoSNba/sandbox/s87R1PwXmZroVNcjNn9N1y-img-1_1770535164000_na1fn_cmF0ZXBhbmRhLWhlcm8tYmctdjI.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvbnZRaTZPU0RVYllkdUtSV21vU05iYS9zYW5kYm94L3M4N1IxUHdYbVpyb1ZOY2pObjlOMXktaW1nLTFfMTc3MDUzNTE2NDAwMF9uYTFmbl9jbUYwWlhCaGJtUmhMV2hsY204dFltY3RkakkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=O7n7LX0YOYBImBac-EEpsvEloJFUo7HiAPVgzGwBVwtK5m6GPQbe92BhxV41qjOtV91QPc6qmX7wo0zDM-QmwtLAzP026C9HUxep68a7OwPEobaKBb3n6sO6CcTi1gu9zXh6TDKfum2LgYFMOxbQ3XrDrRQ1MyNPMhseAjXBii3nMT1gqDWJOsWdoN8JQkURCvxtNKM2w0uN8EES4T0wZUpzhqDPfxx8G-7x3tRBwbgosKXVdBURx3zAcLWWWRQQktbZlrjPx6WV2MdcP2kV7PMNf-7P5Dmf3CXVZEC6i36H9a9L4bnSR7YnPAeHP2EBadXqsEKw~PGrutjOSvBUUg__')",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-          }}
-        />
-
-        {/* Overlay for better text readability */}
-        <div className="absolute inset-0 bg-white/70 z-1" />
-
-        {/* Hero Content */}
+      {/* Hero Section - Clean White Background with Panda at Top Right */}
+      <section className="relative bg-white overflow-hidden">
         <div className="relative z-10 container py-20 md:py-32">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          <div className="relative">
+            {/* Panda at top right - positioned absolutely */}
+            <div className="absolute -top-12 -right-12 md:top-0 md:right-0 w-64 md:w-80 h-auto">
+              <img
+                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663274380395/pAZOdoMWoxgosKFK.png"
+                alt="RatePanda Mascot"
+                className="w-full h-auto"
+              />
+            </div>
+
             {/* Left: Text Content */}
-            <div className="space-y-8">
+            <div className="space-y-8 max-w-2xl pr-0 md:pr-32">
               <div className="space-y-4">
                 <h1 className="text-5xl md:text-6xl font-display text-foreground leading-tight">
                   Pricing Automation for <span className="text-primary">Your PMS</span>
@@ -82,30 +77,19 @@ export default function Home() {
                 ✓ Easy API integration • ✓ White-label ready • ✓ Proven pricing logic
               </div>
             </div>
-
-            {/* Right: Large Panda Cutout */}
-            <div className="hidden md:flex justify-center items-center">
-              <div className="relative w-full max-w-md flex justify-center">
-                <img
-                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663274380395/pAZOdoMWoxgosKFK.png"
-                  alt="RatePanda Mascot"
-                  className="w-full h-auto max-w-sm drop-shadow-lg"
-                />
-              </div>
-            </div>
           </div>
         </div>
       </section>
 
       {/* Value Proposition Section */}
-      <section id="features" className="py-20 md:py-32 bg-gradient-to-b from-white to-accent/10">
+      <section id="features" className="py-20 md:py-32 bg-gradient-to-b from-white to-background/5">
         <div className="container">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-display text-foreground mb-4">
               Why PMS Providers Choose RatePanda
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Stop building pricing features from scratch. Let your customers benefit from proven, simple pricing automation.
+              Designed from the ground up for PMS integration, RatePanda brings intelligent pricing to your customers without the complexity.
             </p>
           </div>
 
@@ -149,8 +133,8 @@ export default function Home() {
             <div className="group rounded-2xl bg-white p-8 border border-border hover:shadow-lg transition-all duration-300">
               <div className="mb-6 flex justify-center">
                 <img
-                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663274380395/qNgaOfJnYInrdDOB.png"
-                  alt="Reliability"
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663274380395/8M3yZJDmWLVPCKpd.png"
+                  alt="Proven & Reliable"
                   className="w-auto" style={{height: '150px'}}
                 />
               </div>
@@ -158,158 +142,187 @@ export default function Home() {
                 Proven & Reliable
               </h3>
               <p className="text-muted-foreground text-center">
-                Battle-tested pricing logic that works. No complex configuration—just sensible automation that your customers will appreciate.
+                Battle-tested pricing logic that works for hotels of all sizes. Backed by years of hospitality expertise.
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* What RatePanda Is (and Isn't) Section */}
+      <section className="py-20 md:py-32 bg-white">
+        <div className="container">
+          <h2 className="text-4xl md:text-5xl font-display text-foreground mb-12 text-center">
+            What RatePanda Is (and Isn't)
+          </h2>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            {/* What It Is */}
+            <div className="space-y-6">
+              <h3 className="text-2xl font-heading text-primary flex items-center gap-2">
+                <Smile className="h-6 w-6" />
+                What RatePanda Is
+              </h3>
+              <ul className="space-y-3">
+                <li className="flex gap-3">
+                  <span className="text-primary font-bold">✓</span>
+                  <span className="text-foreground">A pricing automation engine for hotels</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-primary font-bold">✓</span>
+                  <span className="text-foreground">A white-label solution for PMS providers</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-primary font-bold">✓</span>
+                  <span className="text-foreground">Easy to integrate via API and webhooks</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-primary font-bold">✓</span>
+                  <span className="text-foreground">Customizable pricing logic and UI</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-primary font-bold">✓</span>
+                  <span className="text-foreground">A revenue opportunity for your platform</span>
+                </li>
+              </ul>
+            </div>
+
+            {/* What It Isn't */}
+            <div className="space-y-6">
+              <h3 className="text-2xl font-heading text-foreground/70 flex items-center gap-2">
+                <Shield className="h-6 w-6" />
+                What RatePanda Isn't
+              </h3>
+              <ul className="space-y-3">
+                <li className="flex gap-3">
+                  <span className="text-foreground/50 font-bold">✗</span>
+                  <span className="text-foreground/70">A full Revenue Management System (RMS)</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-foreground/50 font-bold">✗</span>
+                  <span className="text-foreground/70">A replacement for your PMS</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-foreground/50 font-bold">✗</span>
+                  <span className="text-foreground/70">A booking engine or reservation system</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-foreground/50 font-bold">✗</span>
+                  <span className="text-foreground/70">A complex, hard-to-integrate solution</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-foreground/50 font-bold">✗</span>
+                  <span className="text-foreground/70">A direct-to-hotel sales product</span>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </section>
 
       {/* How It Works Section */}
-      <section id="how-it-works" className="py-20 md:py-32 bg-white">
+      <section id="how-it-works" className="py-20 md:py-32 bg-gradient-to-b from-white to-background/5">
         <div className="container">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-display text-foreground mb-4">
-              Integration Made Simple
-            </h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Three simple steps to add pricing automation to your platform
-            </p>
-          </div>
+          <h2 className="text-4xl md:text-5xl font-display text-foreground mb-16 text-center">
+            How It Works
+          </h2>
 
-          {/* Steps */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Step 1 */}
             <div className="text-center">
-              <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 text-primary font-heading text-2xl mb-6">
-                1
+              <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-full bg-primary/10">
+                <span className="text-2xl font-bold text-primary">1</span>
               </div>
-              <h3 className="text-2xl font-heading text-foreground mb-3">
+              <h3 className="text-xl font-heading text-foreground mb-3">
                 Review API Docs
               </h3>
               <p className="text-muted-foreground">
-                Our clean REST API and webhook system make integration straightforward. Full documentation and SDKs available.
+                Explore our clean REST API and webhook documentation. Everything you need to integrate pricing automation.
               </p>
             </div>
 
             {/* Step 2 */}
             <div className="text-center">
-              <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 text-primary font-heading text-2xl mb-6">
-                2
+              <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-full bg-primary/10">
+                <span className="text-2xl font-bold text-primary">2</span>
               </div>
-              <h3 className="text-2xl font-heading text-foreground mb-3">
+              <h3 className="text-xl font-heading text-foreground mb-3">
                 Integrate & Test
               </h3>
               <p className="text-muted-foreground">
-                Connect your hotel data, configure pricing rules, and test in our sandbox environment. Our team is here to help.
+                Connect RatePanda to your platform. Our team provides technical support throughout the integration process.
               </p>
             </div>
 
             {/* Step 3 */}
             <div className="text-center">
-              <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 text-primary font-heading text-2xl mb-6">
-                3
+              <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-full bg-primary/10">
+                <span className="text-2xl font-bold text-primary">3</span>
               </div>
-              <h3 className="text-2xl font-heading text-foreground mb-3">
-                Launch & Scale
+              <h3 className="text-xl font-heading text-foreground mb-3">
+                Launch & Grow
               </h3>
               <p className="text-muted-foreground">
-                Roll out to your customers. Offer it as a bundled feature or premium add-on. We handle the pricing logic.
+                Roll out to your customers. Offer pricing automation as a premium feature and unlock new revenue streams.
               </p>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Positioning Section */}
-      <section className="py-16 md:py-24 bg-gradient-to-r from-primary/5 to-accent/10 border-y border-border">
-        <div className="container text-center max-w-3xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-display text-foreground mb-6">
-            What Makes RatePanda Different
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
-            <div>
-              <h3 className="font-heading text-primary mb-4">✓ Built for PMS Providers:</h3>
-              <ul className="space-y-2 text-muted-foreground">
-                <li>• White-label ready</li>
-                <li>• Simple, proven pricing logic</li>
-                <li>• Easy to integrate and maintain</li>
-                <li>• No complex configuration</li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-heading text-primary mb-4">✗ Not an RMS:</h3>
-              <ul className="space-y-2 text-muted-foreground">
-                <li>• Not advanced revenue optimization</li>
-                <li>• Not a full RMS replacement</li>
-                <li>• Not enterprise-focused</li>
-                <li>• Not a competitive differentiator</li>
-              </ul>
-            </div>
-          </div>
-          <p className="text-lg text-foreground/80 mt-8 leading-relaxed">
-            <strong>RatePanda is Pricing Automation</strong> — a straightforward feature that solves the 80% of hotels that just need sensible, automatic pricing. Perfect for bundling with your PMS platform.
-          </p>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section id="contact" className="py-20 md:py-32 bg-white">
-        <div className="container text-center max-w-2xl mx-auto">
+      <section className="py-20 md:py-32 bg-white">
+        <div className="container text-center">
           <h2 className="text-4xl md:text-5xl font-display text-foreground mb-6">
-            Ready to Add Pricing Automation?
+            Ready to Add Pricing Automation to Your PMS?
           </h2>
-          <p className="text-xl text-muted-foreground mb-8">
-            Let's talk about how RatePanda can enhance your platform and delight your hotel customers.
+          <p className="text-xl text-muted-foreground mb-10 max-w-2xl mx-auto">
+            Schedule a partnership demo to see how RatePanda can help your hotel customers succeed with intelligent pricing.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-primary hover:bg-primary/90 text-white text-base">
-              Schedule a Partnership Demo
-              <ChevronRight className="ml-2 h-5 w-5" />
-            </Button>
-            <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/5">
-              View Technical Docs
-            </Button>
-          </div>
+          <Button size="lg" className="bg-primary hover:bg-primary/90 text-white text-base">
+            Schedule a Partnership Demo
+            <ChevronRight className="ml-2 h-5 w-5" />
+          </Button>
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="bg-foreground/5 border-t border-border py-12">
+      <footer className="bg-foreground text-white py-12 md:py-16">
         <div className="container">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
             <div>
-              <img src="/logo.png" alt="RatePanda" className="h-8 w-auto mb-4" />
-              <p className="text-sm text-muted-foreground">
-                Pricing automation platform for PMS providers.
+              <h4 className="font-heading text-lg mb-4">RatePanda</h4>
+              <p className="text-white/70 text-sm">
+                Pricing automation for PMS platforms. Built for partnership.
               </p>
             </div>
             <div>
-              <h4 className="font-heading text-foreground mb-4">Product</h4>
-              <ul className="space-y-2 text-sm text-muted-foreground">
-                <li><a href="#" className="hover:text-primary transition-colors">Features</a></li>
-                <li><a href="#" className="hover:text-primary transition-colors">Integration</a></li>
-                <li><a href="#" className="hover:text-primary transition-colors">Pricing</a></li>
+              <h4 className="font-heading text-lg mb-4">Product</h4>
+              <ul className="space-y-2 text-sm text-white/70">
+                <li><a href="#features" className="hover:text-white transition-colors">Features</a></li>
+                <li><a href="#how-it-works" className="hover:text-white transition-colors">How It Works</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">API Docs</a></li>
               </ul>
             </div>
             <div>
-              <h4 className="font-heading text-foreground mb-4">Developers</h4>
-              <ul className="space-y-2 text-sm text-muted-foreground">
-                <li><a href="#" className="hover:text-primary transition-colors">API Docs</a></li>
-                <li><a href="#" className="hover:text-primary transition-colors">SDKs</a></li>
-                <li><a href="#" className="hover:text-primary transition-colors">Support</a></li>
+              <h4 className="font-heading text-lg mb-4">Company</h4>
+              <ul className="space-y-2 text-sm text-white/70">
+                <li><a href="#" className="hover:text-white transition-colors">About</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">Blog</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">Contact</a></li>
               </ul>
             </div>
             <div>
-              <h4 className="font-heading text-foreground mb-4">Legal</h4>
-              <ul className="space-y-2 text-sm text-muted-foreground">
-                <li><a href="#" className="hover:text-primary transition-colors">Privacy</a></li>
-                <li><a href="#" className="hover:text-primary transition-colors">Terms</a></li>
+              <h4 className="font-heading text-lg mb-4">Legal</h4>
+              <ul className="space-y-2 text-sm text-white/70">
+                <li><a href="#" className="hover:text-white transition-colors">Privacy</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">Terms</a></li>
               </ul>
             </div>
           </div>
-          <div className="border-t border-border pt-8 text-center text-sm text-muted-foreground">
-            <p>&copy; 2026 RatePanda. All rights reserved. Pricing automation for PMS platforms.</p>
+
+          <div className="border-t border-white/10 pt-8 text-center text-sm text-white/70">
+            <p>&copy; 2026 RatePanda. All rights reserved.</p>
           </div>
         </div>
       </footer>

@@ -115,7 +115,7 @@ export default function Home() {
             <div className="group rounded-2xl bg-white p-8 border border-border hover:shadow-lg transition-all duration-300">
               <div className="mb-6 flex justify-center">
                 <img
-                  src="https://private-us-east-1.manuscdn.com/sessionFile/nvQi6OSDUbYduKRWmoSNba/sandbox/s87R1PwXmZroVNcjNn9N1y-img-2_1770535148000_na1fn_cmF0ZXBhbmRhLWZlYXR1cmUtYXV0b21hdGlvbi12Mg.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvbnZRaTZPU0RVYllkdUtSV21vU05iYS9zYW5kYm94L3M4N1IxUHdYbVpyb1ZOY2pObjlOMXktaW1nLTJfMTc3MDUzNTE0ODAwMF9uYTFmbl9jbUYwWlhCaGJtUmhMV1psWVhSMWNtVXRZWFYwYjIxaGRHbHZiaTEyTWcucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=kiCq5t11PyU6~yG1OenH1XcX-nofxbOFTKsyx1TMv4kUdJ6sptU2PytwuPGzGuuyC9KplAwjl8o0L1eER5IIi4zVvI0ryVOFhw9Ln4xEGIjJCwoHhV5P~X4bB3xybPt~Fl1pBIu7WDLAwkryGcykyv0aDfDKoKvLs72igXVx1S6SW0e7Juj8vvUpWJFK9a3yFBdMvi3aSDK6fttrfIchG2dxe9wwWPevOO0kl6qUB85w3kJsJ-v1R~yHnSkexeQZLzaBZQRLWf0P86ezOLsfCYazG5yb-veL52eMerwWzZrxhKNW1bF25cDoy0jJFq8hWeUxZSJKQN4ytZI6ZuTRLg__"
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663274380395/edlnikdskQonFkyB.png"
                   alt="Easy Integration"
                   className="h-32 w-32"
                 />

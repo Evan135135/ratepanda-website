@@ -41,7 +41,7 @@ export default function Home() {
             {/* Panda at top right - positioned absolutely */}
             <div className="absolute -top-12 -right-12 md:top-0 md:right-0 w-64 md:w-80 h-auto">
               <img
-                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663274380395/pAZOdoMWoxgosKFK.png"
+                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663274380395/nMRAWAXxtAyPdhXx.png"
                 alt="RatePanda Mascot"
                 className="w-full h-auto"
               />

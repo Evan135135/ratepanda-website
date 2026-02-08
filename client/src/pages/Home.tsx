@@ -117,7 +117,7 @@ export default function Home() {
                 <img
                   src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663274380395/edlnikdskQonFkyB.png"
                   alt="Easy Integration"
-                  className="h-auto" style={{width: '280px'}}
+                  className="w-auto" style={{height: '150px'}}
                 />
               </div>
               <h3 className="text-2xl font-heading text-foreground mb-3 text-center">
@@ -134,7 +134,7 @@ export default function Home() {
                 <img
                   src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663274380395/FHyDSNjGHTCjYend.png"
                   alt="White-Label"
-                  className="h-auto" style={{width: '280px'}}
+                  className="w-auto" style={{height: '150px'}}
                 />
               </div>
               <h3 className="text-2xl font-heading text-foreground mb-3 text-center">

@@ -39,7 +39,7 @@ export default function Home() {
         <div className="relative z-10 container py-20 md:py-32">
           <div className="relative">
             {/* Panda at top right - positioned absolutely */}
-            <div className="absolute -top-12 -right-12 md:top-0 md:right-0 w-64 md:w-80 h-auto">
+            <div className="absolute -top-24 -right-20 md:-top-32 md:-right-32 w-64 md:w-96 lg:w-[500px] h-auto">
               <img
                 src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663274380395/nMRAWAXxtAyPdhXx.png"
                 alt="RatePanda Mascot"

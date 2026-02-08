@@ -132,7 +132,7 @@ export default function Home() {
             <div className="group rounded-2xl bg-white p-8 border border-border hover:shadow-lg transition-all duration-300">
               <div className="mb-6 flex justify-center">
                 <img
-                  src="https://private-us-east-1.manuscdn.com/sessionFile/nvQi6OSDUbYduKRWmoSNba/sandbox/s87R1PwXmZroVNcjNn9N1y-img-3_1770535161000_na1fn_cmF0ZXBhbmRhLWZlYXR1cmUtc2ltcGxlLXYy.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvbnZRaTZPU0RVYllkdUtSV21vU05iYS9zYW5kYm94L3M4N1IxUHdYbVpyb1ZOY2pObjlOMXktaW1nLTNfMTc3MDUzNTE2MTAwMF9uYTFmbl9jbUYwWlhCaGJtUmhMV1psWVhSMWNtVXRjMmx0Y0d4bExYWXkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=u30sepbvXq-HsQXMmyL20Bwh-~q9xlQf0iZUlXRlGKip59JoWdmzr8qKzkzhMcXCdqESOt6MPqMGaXYUSuv1YDDhXKKh7pHq5t7C7ynA9FYBXmAX7XM9K0WmSIb4YQkSVzM1bS-9DMcbyYblmQsZ8yt-yqN0TQUZyeBp2n41UYF1XmhhsLMIWdQ~Pu1LHvPFOCGjBETGvLA0YoM1fgHhpepKzV60~dzG4W7nu3Y8Qn3DnvP9N6khmMdpJBViApqVa617quKVvXJD45ySIjQJ-G-HOjOOdJ0hyu39O6EF5zftMp9PbWHLfTiLwlMyBZ~xfP1BwUmZQjFlLM6lXjEfyQ__"
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663274380395/OtlYKGBHwVIbyEzT.png"
                   alt="White-Label"
                   className="h-32 w-32"
                 />
@@ -149,8 +149,8 @@ export default function Home() {
             <div className="group rounded-2xl bg-white p-8 border border-border hover:shadow-lg transition-all duration-300">
               <div className="mb-6 flex justify-center">
                 <img
-                  src="https://private-us-east-1.manuscdn.com/sessionFile/nvQi6OSDUbYduKRWmoSNba/sandbox/s87R1PwXmZroVNcjNn9N1y-img-4_1770535157000_na1fn_cmF0ZXBhbmRhLWZlYXR1cmUtcmVsaWFibGUtdjI.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvbnZRaTZPU0RVYllkdUtSV21vU05iYS9zYW5kYm94L3M4N1IxUHdYbVpyb1ZOY2pObjlOMXktaW1nLTRfMTc3MDUzNTE1NzAwMF9uYTFmbl9jbUYwWlhCaGJtUmhMV1psWVhSMWNtVXRjbVZzYVdGaWJHVXRkakkucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=oTR5Yew1AMeStARhAtoS3-rSaYf9VD6R3OCJemum5kAMMfSIbajU8E4xni3kkkFXQs22EMeTHBI3uECtnVNAbUTtDjTvYXJQNOZlRkyTJ01oUil2ia2hluoCFxiombWTcEyxep8xlEKeKi7TSD-40Yy16SrVm9Z~eCzFYgygB3QSk4OW3zPJnEPHgsL5aV0t-ZolgVVtHI0xXdWQQM5a7U9BapA28ZUeYBOmp1wwpKThW~VksOyjV1c8SVJB1IBtYbxpb8THSOGMIU4EniIIWrMv-7PEuFZ878DEaCMAmMxzzy~8HbYI9mW2yxWJJg9h8KnDi6JqhdsmK3zozB7Vag__"
-                  alt="Proven & Reliable"
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663274380395/YTfIocbxhPEkBPvt.png"
+                  alt="Reliability"
                   className="h-32 w-32"
                 />
               </div>

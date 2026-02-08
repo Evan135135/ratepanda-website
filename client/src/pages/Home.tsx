@@ -132,7 +132,7 @@ export default function Home() {
             <div className="group rounded-2xl bg-white p-8 border border-border hover:shadow-lg transition-all duration-300">
               <div className="mb-6 flex justify-center">
                 <img
-                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663274380395/OtlYKGBHwVIbyEzT.png"
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663274380395/FHyDSNjGHTCjYend.png"
                   alt="White-Label"
                   className="h-32 w-32"
                 />

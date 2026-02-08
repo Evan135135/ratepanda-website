@@ -6,9 +6,47 @@
  */
 
 import { Button } from "@/components/ui/button";
-import { ChevronRight, Zap, Shield, Smile } from "lucide-react";
+import { ChevronRight, Zap, Shield, Smile, ChevronDown } from "lucide-react";
+import { useState } from "react";
 
 export default function Home() {
+  const [expandedFaq, setExpandedFaq] = useState<number | null>(null);
+
+  const faqItems = [
+    {
+      question: "How long does it take to integrate RatePanda?",
+      answer: "Typical integration takes 3-5 business days. Our process includes: API review (1 day), development & testing (2-3 days), and final deployment. We provide dedicated technical support throughout to ensure a smooth rollout."
+    },
+    {
+      question: "Can I white-label RatePanda for my customers?",
+      answer: "Yes! RatePanda is designed as a white-label solution. You can customize the UI, branding, messaging, and pricing to match your platform and business model. Your customers will see your branding, not ours."
+    },
+    {
+      question: "What pricing models do you offer?",
+      answer: "We offer flexible partnership models including flat monthly fees, revenue share arrangements, and tiered pricing based on hotel properties. We'll work with you to find a model that aligns with your business goals and customer base."
+    },
+    {
+      question: "What's your API documentation like?",
+      answer: "We provide comprehensive REST API documentation with code examples in multiple languages (JavaScript, Python, PHP, etc.). Our API includes endpoints for pricing rules, rate management, webhooks, and analytics. Full SDK support is available."
+    },
+    {
+      question: "Do you offer technical support during integration?",
+      answer: "Absolutely. We assign a dedicated technical partner to your team during integration. We offer email support, video calls, and access to our developer community. We're committed to your success."
+    },
+    {
+      question: "What happens if there's an issue with pricing calculations?",
+      answer: "Our pricing engine is battle-tested and handles complex scenarios automatically. If issues arise, our support team responds within 2 hours for critical issues. We also provide detailed logging and analytics to help you monitor pricing accuracy."
+    },
+    {
+      question: "Can RatePanda integrate with our existing PMS database?",
+      answer: "Yes. RatePanda integrates via REST API and webhooks, making it compatible with any PMS system. We can also work with your team on custom integration points if needed."
+    },
+    {
+      question: "What about data security and compliance?",
+      answer: "RatePanda meets enterprise security standards including SSL/TLS encryption, PCI compliance, and GDPR compliance. We conduct regular security audits and provide detailed security documentation for your compliance team."
+    }
+  ];
+
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation Header */}
@@ -51,14 +89,16 @@ export default function Home() {
             <div className="space-y-8 max-w-2xl pr-0 md:pr-32">
               <div className="space-y-4">
                 <h1 className="text-5xl md:text-6xl font-display text-foreground leading-tight">
-                  Pricing Automation for <span className="text-primary">Your PMS</span>
+                  Pricing Automation for
+                  <br />
+                  <span className="text-primary">Your PMS</span>
                 </h1>
-                <p className="text-xl text-muted-foreground">
+                <p className="text-lg text-muted-foreground">
                   White-label pricing automation your hotel customers will love. Bundle it with your platform and let RatePanda handle the complexity.
                 </p>
               </div>
 
-              <p className="text-lg text-foreground/80 leading-relaxed">
+              <p className="text-base text-foreground/80 leading-relaxed">
                 RatePanda is a pricing automation platform designed specifically for PMS providers. Give your customers automatic, sensible pricing without the headaches of building it yourself.
               </p>
 
@@ -67,40 +107,29 @@ export default function Home() {
                   Schedule a Demo
                   <ChevronRight className="ml-2 h-5 w-5" />
                 </Button>
-                <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/5">
+                <Button size="lg" variant="outline" className="text-base">
                   View Integration Docs
                 </Button>
-              </div>
-
-              {/* Trust Badge */}
-              <div className="pt-4 text-sm text-muted-foreground">
-                ✓ Easy API integration • ✓ White-label ready • ✓ Proven pricing logic
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Value Proposition Section */}
-      <section id="features" className="py-20 md:py-32 bg-gradient-to-b from-white to-background/5">
+      {/* Features Section */}
+      <section id="features" className="py-20 md:py-32 bg-white">
         <div className="container">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-display text-foreground mb-4">
-              Why PMS Providers Choose RatePanda
-            </h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Designed from the ground up for PMS integration, RatePanda brings intelligent pricing to your customers without the complexity.
-            </p>
-          </div>
+          <h2 className="text-4xl md:text-5xl font-display text-foreground mb-16 text-center">
+            Why PMS Providers Choose RatePanda
+          </h2>
 
-          {/* Features Grid */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Feature 1: Easy Integration */}
+            {/* Feature 1: Simple Integration */}
             <div className="group rounded-2xl bg-white p-8 border border-border hover:shadow-lg transition-all duration-300">
               <div className="mb-6 flex justify-center">
                 <img
-                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663274380395/wIIUcyhdkcEXPCwu.png"
-                  alt="Easy Integration"
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663274380395/hkWJIZLUDIFfluYX.png"
+                  alt="Simple Integration"
                   className="w-auto" style={{height: '150px'}}
                 />
               </div>
@@ -116,8 +145,8 @@ export default function Home() {
             <div className="group rounded-2xl bg-white p-8 border border-border hover:shadow-lg transition-all duration-300">
               <div className="mb-6 flex justify-center">
                 <img
-                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663274380395/hkWJIZLUDIFfluYX.png"
-                  alt="White-Label"
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663274380395/wIIUcyhdkcEXPCwu.png"
+                  alt="White-Label Ready"
                   className="w-auto" style={{height: '150px'}}
                 />
               </div>
@@ -158,46 +187,36 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             {/* What It Is */}
-            <div className="space-y-6">
-              <h3 className="text-2xl font-heading text-primary flex items-center gap-2">
-                <Smile className="h-6 w-6" />
-                What RatePanda Is
-              </h3>
-              <ul className="space-y-3">
+            <div>
+              <h3 className="text-2xl font-heading text-primary mb-6">What It Is</h3>
+              <ul className="space-y-4">
                 <li className="flex gap-3">
                   <span className="text-primary font-bold">✓</span>
-                  <span className="text-foreground">A pricing automation engine for hotels</span>
+                  <span className="text-foreground/80">Intelligent pricing automation for hotels</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="text-primary font-bold">✓</span>
-                  <span className="text-foreground">A white-label solution for PMS providers</span>
+                  <span className="text-foreground/80">A white-label feature you can bundle with your PMS</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="text-primary font-bold">✓</span>
-                  <span className="text-foreground">Easy to integrate via API and webhooks</span>
+                  <span className="text-foreground/80">Easy to integrate via REST API</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="text-primary font-bold">✓</span>
-                  <span className="text-foreground">Customizable pricing logic and UI</span>
+                  <span className="text-foreground/80">Fully customizable for your brand and business model</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="text-primary font-bold">✓</span>
-                  <span className="text-foreground">A revenue opportunity for your platform</span>
+                  <span className="text-foreground/80">Enterprise-grade security and compliance</span>
                 </li>
               </ul>
             </div>
 
             {/* What It Isn't */}
-            <div className="space-y-6">
-              <h3 className="text-2xl font-heading text-foreground/70 flex items-center gap-2">
-                <Shield className="h-6 w-6" />
-                What RatePanda Isn't
-              </h3>
-              <ul className="space-y-3">
-                <li className="flex gap-3">
-                  <span className="text-foreground/50 font-bold">✗</span>
-                  <span className="text-foreground/70">A full Revenue Management System (RMS)</span>
-                </li>
+            <div>
+              <h3 className="text-2xl font-heading text-foreground/50 mb-6">What It Isn't</h3>
+              <ul className="space-y-4">
                 <li className="flex gap-3">
                   <span className="text-foreground/50 font-bold">✗</span>
                   <span className="text-foreground/70">A replacement for your PMS</span>
@@ -266,6 +285,48 @@ export default function Home() {
                 Roll out to your customers. Offer pricing automation as a premium feature and unlock new revenue streams.
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-20 md:py-32 bg-background/5">
+        <div className="container">
+          <h2 className="text-4xl md:text-5xl font-display text-foreground mb-4 text-center">
+            Frequently Asked Questions
+          </h2>
+          <p className="text-xl text-muted-foreground mb-16 text-center max-w-2xl mx-auto">
+            Everything you need to know about integrating RatePanda with your PMS platform.
+          </p>
+
+          <div className="max-w-3xl mx-auto space-y-4">
+            {faqItems.map((item, index) => (
+              <div
+                key={index}
+                className="rounded-lg border border-border bg-white overflow-hidden transition-all duration-300 hover:shadow-md"
+              >
+                <button
+                  onClick={() => setExpandedFaq(expandedFaq === index ? null : index)}
+                  className="w-full px-6 py-4 flex items-center justify-between text-left hover:bg-background/5 transition-colors"
+                >
+                  <h3 className="text-lg font-heading text-foreground pr-4">
+                    {item.question}
+                  </h3>
+                  <ChevronDown
+                    className={`h-5 w-5 text-primary flex-shrink-0 transition-transform duration-300 ${
+                      expandedFaq === index ? 'rotate-180' : ''
+                    }`}
+                  />
+                </button>
+                {expandedFaq === index && (
+                  <div className="px-6 py-4 border-t border-border bg-white/50">
+                    <p className="text-muted-foreground leading-relaxed">
+                      {item.answer}
+                    </p>
+                  </div>
+                )}
+              </div>
+            ))}
           </div>
         </div>
       </section>

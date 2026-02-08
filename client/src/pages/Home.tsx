@@ -103,12 +103,12 @@ export default function Home() {
                   <span className="text-primary">hotels</span>
                 </h1>
                 <p className="text-lg text-muted-foreground">
-                  White-label pricing automation hotels will love. Bundle it with your platform and let RatePanda handle the complexity.
+                  Automatic pricing for hotels, built to be bundled by platforms.
                 </p>
               </div>
 
               <p className="text-base text-foreground/80 leading-relaxed">
-                RatePanda is a pricing automation platform designed specifically for PMS providers. Give your customers automatic, sensible pricing without the headaches of building it yourself.
+                Give your customers sensible, automatic pricing — without building or maintaining a full revenue management system.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 pt-4">

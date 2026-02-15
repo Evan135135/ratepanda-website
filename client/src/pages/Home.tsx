@@ -15,35 +15,35 @@ export default function Home() {
   const faqItems = [
     {
       question: "How long does it take to integrate RatePanda?",
-      answer: "Typical integration takes 3-5 business days. Our process includes: API review (1 day), development & testing (2-3 days), and final deployment. We provide dedicated technical support throughout to ensure a smooth rollout."
+      answer: "Most integrations take a few days. RatePanda is API-first, with optional quick-start iframes for faster rollout. Our documentation is clear and designed for straightforward implementation."
     },
     {
       question: "Can I white-label RatePanda for my customers?",
-      answer: "Yes! RatePanda is designed as a white-label solution. You can customize the UI, branding, messaging, and pricing to match your platform and business model. Your customers will see your branding, not ours."
+      answer: "Yes. RatePanda runs in the background via API and is designed to be bundled under your brand. You can build your own interface, or use our ready-made iframes for quick setup. The pricing logic itself remains fixed and consistent."
     },
     {
       question: "What pricing models do you offer?",
-      answer: "We offer flexible partnership models including flat monthly fees, revenue share arrangements, and tiered pricing based on hotel properties. We'll work with you to find a model that aligns with your business goals and customer base."
+      answer: "RatePanda uses simple, flat pricing designed to be easy to bundle and easy to explain. There are no revenue-share fees, booking-based charges, or feature tiers."
     },
     {
       question: "What's your API documentation like?",
-      answer: "We provide comprehensive REST API documentation with code examples in multiple languages (JavaScript, Python, PHP, etc.). Our API includes endpoints for pricing rules, rate management, webhooks, and analytics. Full SDK support is available."
+      answer: "We provide clear REST API documentation with practical examples and webhook support. The API covers configuration, limits, status, and pricing updates. It's designed to be straightforward and predictable — not overly complex."
     },
     {
       question: "Do you offer technical support during integration?",
-      answer: "Absolutely. We assign a dedicated technical partner to your team during integration. We offer email support, video calls, and access to our developer community. We're committed to your success."
+      answer: "Yes. We support integrations directly with your technical team and provide guidance throughout rollout. RatePanda is designed to be simple to implement and maintain."
     },
     {
       question: "What happens if there's an issue with pricing calculations?",
-      answer: "Our pricing engine is battle-tested and handles complex scenarios automatically. If issues arise, our support team responds within 2 hours for critical issues. We also provide detailed logging and analytics to help you monitor pricing accuracy."
+      answer: "All pricing changes are logged and transparent. Automation can be paused or disabled at any time. RatePanda is a baseline tool, not a revenue decision-maker."
     },
     {
       question: "Can RatePanda integrate with our existing PMS database?",
-      answer: "Yes. RatePanda integrates via REST API and webhooks, making it compatible with any PMS system. We can also work with your team on custom integration points if needed."
+      answer: "Yes. RatePanda integrates via API and webhooks, making it compatible with modern PMS platforms. It is designed as a clean automation layer rather than a deeply embedded system."
     },
     {
       question: "What about data security and compliance?",
-      answer: "RatePanda meets enterprise security standards including SSL/TLS encryption, PCI compliance, and GDPR compliance. We conduct regular security audits and provide detailed security documentation for your compliance team."
+      answer: "RatePanda uses standard industry security practices including encrypted connections and controlled access. We provide security documentation suitable for technical review."
     }
   ];
 

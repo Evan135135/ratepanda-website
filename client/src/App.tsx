@@ -1,6 +1,7 @@
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
+import { useEffect } from "react";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
@@ -24,6 +25,15 @@ function Router() {
 // - If you want to make theme switchable, pass `switchable` ThemeProvider and use `useTheme` hook
 
 function App() {
+  useEffect(() => {
+    // Handle GitHub Pages 404 redirect
+    const redirect = sessionStorage.redirect;
+    if (redirect) {
+      delete sessionStorage.redirect;
+      window.history.replaceState(null, '', redirect);
+    }
+  }, []);
+
   return (
     <ErrorBoundary>
       <ThemeProvider

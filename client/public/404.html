@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RatePanda</title>
+    <script>
+      // GitHub Pages SPA routing fix
+      // Redirect 404s to the index.html with the original path preserved
+      const path = window.location.pathname.replace(/\/$/, '');
+      if (path && !path.includes('.')) {
+        // Store the path for the app to use
+        sessionStorage.redirect = path;
+        // Redirect to index.html
+        window.location.href = '/ratepanda-website/';
+      }
+    </script>
+  </head>
+  <body></body>
+</html>

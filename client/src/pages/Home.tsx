@@ -14,6 +14,14 @@ export default function Home() {
 
   const faqItems = [
     {
+      question: "Is RatePanda a full revenue management system (RMS)?",
+      answer: "No. RatePanda is a focused pricing automation tool, not a full RMS. It handles automatic rate adjustments based on demand and occupancy, but does not include forecasting, inventory management, or advanced revenue strategy features. It is designed to be simple and predictable by design."
+    },
+    {
+      question: "Do hotels retain control over pricing?",
+      answer: "Yes, absolutely. Hotels always retain full control. They can review recommendations, override prices manually at any time, pause automation instantly, or disable it completely. RatePanda is a helper tool, not a decision-maker."
+    },
+    {
       question: "How long does it take to integrate RatePanda?",
       answer: "Most integrations take a few days. RatePanda is API-first, with optional quick-start iframes for faster rollout. Our documentation is clear and designed for straightforward implementation."
     },
@@ -34,8 +42,8 @@ export default function Home() {
       answer: "Yes. We support integrations directly with your technical team and provide guidance throughout rollout. RatePanda is designed to be simple to implement and maintain."
     },
     {
-      question: "What happens if there's an issue with pricing calculations?",
-      answer: "All pricing changes are logged and transparent. Automation can be paused or disabled at any time. RatePanda is a baseline tool, not a revenue decision-maker."
+      question: "What happens if pricing looks wrong?",
+      answer: "All pricing changes are logged and transparent. Automation can be paused or disabled instantly if something does not look right. You are always in control, and we provide detailed logging so you can audit every change."
     },
     {
       question: "Can RatePanda integrate with our existing PMS database?",
@@ -85,8 +93,8 @@ export default function Home() {
 
         <div className="relative z-10 container py-20 md:py-32">
           <div className="relative">
-            {/* Panda at top right - visible on desktop only */}
-            <div className="hidden md:block absolute -top-32 right-0 lg:-top-40 lg:right-0 w-96 lg:w-[500px] h-auto">
+            {/* Panda at top right - visible on desktop only, faded for text hierarchy */}
+            <div className="hidden md:block absolute -top-32 right-0 lg:-top-40 lg:right-0 w-96 lg:w-[500px] h-auto opacity-60">
               <img
                 src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663274380395/nMRAWAXxtAyPdhXx.png"
                 alt="RatePanda Mascot"
@@ -98,12 +106,15 @@ export default function Home() {
             <div className="space-y-8 max-w-2xl pr-0 md:pr-32">
               <div className="space-y-4">
                 <h1 className="text-5xl md:text-6xl font-display text-foreground leading-tight">
-                  Automatic pricing for
+                  Make pricing
                   <br />
-                  <span className="text-primary">hotels</span>
+                  <span className="text-primary">boring</span>
                 </h1>
                 <p className="text-lg text-muted-foreground">
-                  Automatic pricing for hotels, built to be bundled by platforms.
+                  Automatic pricing that keeps hotel rates sensible and up to date.
+                </p>
+                <p className="text-sm text-muted-foreground font-medium">
+                  Built to be bundled by hotel software platforms.
                 </p>
               </div>
 
@@ -113,11 +124,11 @@ export default function Home() {
 
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Button size="lg" className="bg-primary hover:bg-primary/90 text-white text-base">
-                  Schedule a Demo
+                  Bundle pricing automation
                   <ChevronRight className="ml-2 h-5 w-5" />
                 </Button>
                 <Button size="lg" variant="outline" className="text-base">
-                  View Integration Docs
+                  Try quick-start iframe
                 </Button>
               </div>
             </div>
@@ -143,10 +154,10 @@ export default function Home() {
                 />
               </div>
               <h3 className="text-2xl font-heading text-foreground mb-3 text-center">
-                Simple Integration
+                Runs in the background
               </h3>
               <p className="text-muted-foreground text-center">
-                Clean API and webhooks make it easy to integrate RatePanda into your platform. Get up and running in days, not months.
+                No setup work. Pricing automation happens automatically without manual intervention or ongoing maintenance.
               </p>
             </div>
 
@@ -160,10 +171,10 @@ export default function Home() {
                 />
               </div>
               <h3 className="text-2xl font-heading text-foreground mb-3 text-center">
-                White-Label Ready
+                API-first, iframe-ready
               </h3>
               <p className="text-muted-foreground text-center">
-                Brand it as your own. Customize the UI, messaging, and pricing to match your platform and business model.
+                Build your own interface or use our ready-made iframes. Flexible integration from day one.
               </p>
             </div>
 
@@ -177,10 +188,10 @@ export default function Home() {
                 />
               </div>
               <h3 className="text-2xl font-heading text-foreground mb-3 text-center">
-                Proven & Reliable
+                One flat pricing model
               </h3>
               <p className="text-muted-foreground text-center">
-                Battle-tested pricing logic that works for hotels of all sizes. Backed by years of hospitality expertise.
+                Simple, predictable costs. No revenue share, no per-booking charges, no hidden fees.
               </p>
             </div>
           </div>

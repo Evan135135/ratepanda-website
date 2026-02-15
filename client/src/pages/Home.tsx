@@ -201,23 +201,23 @@ export default function Home() {
               <ul className="space-y-4">
                 <li className="flex gap-3">
                   <span className="text-primary font-bold">✓</span>
-                  <span className="text-foreground/80">Intelligent pricing automation for hotels</span>
+                  <span className="text-foreground/80">Pricing automation for everyday hotels</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="text-primary font-bold">✓</span>
-                  <span className="text-foreground/80">A white-label feature you can bundle with your PMS</span>
+                  <span className="text-foreground/80">Designed to be bundled by PMS platforms</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="text-primary font-bold">✓</span>
-                  <span className="text-foreground/80">Easy to integrate via REST API</span>
+                  <span className="text-foreground/80">API-first, with optional quick-start iframes</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="text-primary font-bold">✓</span>
-                  <span className="text-foreground/80">Fully customizable for your brand and business model</span>
+                  <span className="text-foreground/80">Opinionated and predictable by design</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="text-primary font-bold">✓</span>
-                  <span className="text-foreground/80">Enterprise-grade security and compliance</span>
+                  <span className="text-foreground/80">Simple, flat pricing with no revenue share</span>
                 </li>
               </ul>
             </div>
@@ -228,6 +228,10 @@ export default function Home() {
               <ul className="space-y-4">
                 <li className="flex gap-3">
                   <span className="text-foreground/50 font-bold">✗</span>
+                  <span className="text-foreground/70">A full revenue management system (RMS)</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-foreground/50 font-bold">✗</span>
                   <span className="text-foreground/70">A replacement for your PMS</span>
                 </li>
                 <li className="flex gap-3">
@@ -236,7 +240,7 @@ export default function Home() {
                 </li>
                 <li className="flex gap-3">
                   <span className="text-foreground/50 font-bold">✗</span>
-                  <span className="text-foreground/70">A complex, hard-to-integrate solution</span>
+                  <span className="text-foreground/70">Custom pricing logic per hotel</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="text-foreground/50 font-bold">✗</span>

@@ -1,0 +1,106 @@
+[2026-02-15T04:06:16.441Z] Starting dev server with command: pnpm run dev
+[2026-02-15T04:06:17.275Z] 
+[2026-02-15T04:06:17.275Z] > ratepanda-website@1.0.0 dev /home/ubuntu/ratepanda-website
+[2026-02-15T04:06:17.276Z] > vite --host
+[2026-02-15T04:06:17.276Z] 
+[2026-02-15T04:06:17.787Z] 
+[2026-02-15T04:06:17.788Z] VITE v7.1.9  ready in 476 ms
+[2026-02-15T04:06:17.788Z] 
+[2026-02-15T04:06:17.789Z] ➜  Local:   http://localhost:3000/
+[2026-02-15T04:06:17.790Z] ➜  Network: http://169.254.0.21:3000/
+[2026-02-15T04:06:19.152Z] Dev server process group stopped
+[2026-02-15T04:06:19.154Z] ELIFECYCLE  Command failed.
+[2026-02-15T04:06:19.168Z] Dev server exited with code -15
+[2026-02-15T04:06:22.159Z] Starting dev server with command: pnpm run dev
+[2026-02-15T04:06:22.888Z] 
+[2026-02-15T04:06:22.889Z] > ratepanda-website@1.0.0 dev /home/ubuntu/ratepanda-website
+[2026-02-15T04:06:22.889Z] > vite --host
+[2026-02-15T04:06:22.890Z] 
+[2026-02-15T04:06:23.277Z] 
+[2026-02-15T04:06:23.277Z] VITE v7.1.9  ready in 347 ms
+[2026-02-15T04:06:23.278Z] 
+[2026-02-15T04:06:23.278Z] ➜  Local:   http://localhost:3000/
+[2026-02-15T04:06:23.279Z] ➜  Network: http://169.254.0.21:3000/
+[2026-02-15T04:06:24.276Z] [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[2026-02-15T04:07:07.687Z] 11:07:07 PM [vite] (client) hmr update /src/pages/Home.tsx, /src/index.css
+[2026-02-15T04:10:14.448Z] 11:10:14 PM [vite] vite.config.ts changed, restarting server...
+[2026-02-15T04:10:14.495Z] 11:10:14 PM [vite] server restarted.
+[2026-02-15T04:17:38.814Z] 11:17:38 PM [vite] (client) hmr update /src/pages/Home.tsx, /src/index.css
+[2026-02-15T04:17:59.382Z] 11:17:59 PM [vite] (client) hmr update /src/pages/Home.tsx, /src/index.css
+[2026-02-15T04:18:21.908Z] 11:18:21 PM [vite] (client) hmr update /src/pages/Home.tsx, /src/index.css
+[2026-02-15T04:18:32.934Z] 11:18:32 PM [vite] (client) hmr update /src/pages/Home.tsx, /src/index.css
+[2026-02-15T04:20:45.568Z] 11:20:45 PM [vite] (client) page reload public/404.html
+[2026-02-15T04:20:56.755Z] 11:20:56 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+[2026-02-15T04:32:00.460Z] 11:32:00 PM [vite] changed tsconfig file detected: /home/ubuntu/ratepanda-website/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+[2026-02-15T04:32:00.462Z] 11:32:00 PM [vite] vite.config.ts changed, restarting server...
+[2026-02-15T04:32:00.462Z] 11:32:00 PM [vite] (client) page reload index.html
+[2026-02-15T04:32:00.462Z] 11:32:00 PM [vite] (client) page reload public/.gitkeep
+[2026-02-15T04:32:00.463Z] 11:32:00 PM [vite] (client) page reload public/__manus__/debug-collector.js
+[2026-02-15T04:32:00.463Z] 11:32:00 PM [vite] (client) page reload public/404.html
+[2026-02-15T04:32:00.463Z] 11:32:00 PM [vite] (client) page reload src/App.tsx
+[2026-02-15T04:32:00.463Z] 11:32:00 PM [vite] (client) page reload src/const.ts
+[2026-02-15T04:32:00.464Z] 11:32:00 PM [vite] (client) hmr update /src/index.css
+[2026-02-15T04:32:00.464Z] 11:32:00 PM [vite] (client) page reload src/main.tsx
+[2026-02-15T04:32:00.464Z] 11:32:00 PM [vite] (client) page reload src/components/ErrorBoundary.tsx
+[2026-02-15T04:32:00.465Z] 11:32:00 PM [vite] (client) page reload src/components/ManusDialog.tsx
+[2026-02-15T04:32:00.465Z] 11:32:00 PM [vite] (client) page reload src/components/Map.tsx
+[2026-02-15T04:32:00.465Z] 11:32:00 PM [vite] (client) page reload src/components/ui/accordion.tsx
+[2026-02-15T04:32:00.465Z] 11:32:00 PM [vite] (client) page reload src/components/ui/alert-dialog.tsx
+[2026-02-15T04:32:00.466Z] 11:32:00 PM [vite] (client) page reload src/components/ui/alert.tsx
+[2026-02-15T04:32:00.466Z] 11:32:00 PM [vite] (client) page reload src/components/ui/aspect-ratio.tsx
+[2026-02-15T04:32:00.466Z] 11:32:00 PM [vite] (client) page reload src/components/ui/avatar.tsx
+[2026-02-15T04:32:00.466Z] 11:32:00 PM [vite] (client) page reload src/components/ui/badge.tsx
+[2026-02-15T04:32:00.467Z] 11:32:00 PM [vite] (client) page reload src/components/ui/breadcrumb.tsx
+[2026-02-15T04:32:00.467Z] 11:32:00 PM [vite] (client) page reload src/components/ui/button-group.tsx
+[2026-02-15T04:32:00.467Z] 11:32:00 PM [vite] (client) page reload src/components/ui/button.tsx
+[2026-02-15T04:32:00.467Z] 11:32:00 PM [vite] (client) page reload src/components/ui/calendar.tsx
+[2026-02-15T04:32:00.468Z] 11:32:00 PM [vite] (client) page reload src/components/ui/card.tsx
+[2026-02-15T04:32:00.468Z] 11:32:00 PM [vite] (client) page reload src/components/ui/carousel.tsx
+[2026-02-15T04:32:00.468Z] 11:32:00 PM [vite] (client) page reload src/components/ui/chart.tsx
+[2026-02-15T04:32:00.468Z] 11:32:00 PM [vite] (client) page reload src/components/ui/checkbox.tsx
+[2026-02-15T04:32:00.469Z] 11:32:00 PM [vite] (client) page reload src/components/ui/collapsible.tsx
+[2026-02-15T04:32:00.469Z] 11:32:00 PM [vite] (client) page reload src/components/ui/command.tsx
+[2026-02-15T04:32:00.469Z] 11:32:00 PM [vite] (client) page reload src/components/ui/context-menu.tsx
+[2026-02-15T04:32:00.469Z] 11:32:00 PM [vite] (client) page reload src/components/ui/dialog.tsx
+[2026-02-15T04:32:00.470Z] 11:32:00 PM [vite] (client) page reload src/components/ui/drawer.tsx
+[2026-02-15T04:32:00.470Z] 11:32:00 PM [vite] (client) page reload src/components/ui/dropdown-menu.tsx
+[2026-02-15T04:32:00.470Z] 11:32:00 PM [vite] (client) page reload src/components/ui/empty.tsx
+[2026-02-15T04:32:00.470Z] 11:32:00 PM [vite] (client) page reload src/components/ui/field.tsx
+[2026-02-15T04:32:00.471Z] 11:32:00 PM [vite] (client) page reload src/components/ui/form.tsx
+[2026-02-15T04:32:00.471Z] 11:32:00 PM [vite] (client) page reload src/components/ui/hover-card.tsx
+[2026-02-15T04:32:00.471Z] 11:32:00 PM [vite] (client) page reload src/components/ui/input-group.tsx
+[2026-02-15T04:32:00.471Z] 11:32:00 PM [vite] (client) page reload src/components/ui/input-otp.tsx
+[2026-02-15T04:32:00.471Z] 11:32:00 PM [vite] (client) page reload src/components/ui/input.tsx
+[2026-02-15T04:32:00.472Z] 11:32:00 PM [vite] (client) page reload src/components/ui/item.tsx
+[2026-02-15T04:32:00.472Z] 11:32:00 PM [vite] (client) page reload src/components/ui/kbd.tsx
+[2026-02-15T04:32:00.472Z] 11:32:00 PM [vite] (client) page reload src/components/ui/label.tsx
+[2026-02-15T04:32:00.472Z] 11:32:00 PM [vite] (client) page reload src/components/ui/menubar.tsx
+[2026-02-15T04:32:00.473Z] 11:32:00 PM [vite] (client) page reload src/components/ui/navigation-menu.tsx
+[2026-02-15T04:32:00.473Z] 11:32:00 PM [vite] (client) page reload src/components/ui/pagination.tsx
+[2026-02-15T04:32:00.473Z] 11:32:00 PM [vite] (client) page reload src/components/ui/popover.tsx
+[2026-02-15T04:32:00.473Z] 11:32:00 PM [vite] (client) page reload src/components/ui/progress.tsx
+[2026-02-15T04:32:00.474Z] 11:32:00 PM [vite] (client) page reload src/components/ui/radio-group.tsx
+[2026-02-15T04:32:00.474Z] 11:32:00 PM [vite] (client) page reload src/components/ui/resizable.tsx
+[2026-02-15T04:32:00.474Z] 11:32:00 PM [vite] (client) page reload src/components/ui/scroll-area.tsx
+[2026-02-15T04:32:00.474Z] 11:32:00 PM [vite] (client) page reload src/components/ui/select.tsx
+[2026-02-15T04:32:00.475Z] 11:32:00 PM [vite] (client) page reload src/components/ui/separator.tsx
+[2026-02-15T04:32:00.475Z] 11:32:00 PM [vite] (client) page reload src/components/ui/sheet.tsx
+[2026-02-15T04:32:00.475Z] 11:32:00 PM [vite] (client) page reload src/components/ui/sidebar.tsx
+[2026-02-15T04:32:00.475Z] 11:32:00 PM [vite] (client) page reload src/components/ui/skeleton.tsx
+[2026-02-15T04:32:00.476Z] 11:32:00 PM [vite] (client) page reload src/components/ui/slider.tsx
+[2026-02-15T04:32:00.476Z] 11:32:00 PM [vite] (client) page reload src/components/ui/sonner.tsx
+[2026-02-15T04:32:00.476Z] 11:32:00 PM [vite] (client) page reload src/components/ui/spinner.tsx
+[2026-02-15T04:32:00.476Z] 11:32:00 PM [vite] (client) page reload src/components/ui/switch.tsx
+[2026-02-15T04:32:00.476Z] 11:32:00 PM [vite] (client) page reload src/components/ui/table.tsx
+[2026-02-15T04:32:00.477Z] 11:32:00 PM [vite] (client) page reload src/components/ui/tabs.tsx
+[2026-02-15T04:32:00.477Z] 11:32:00 PM [vite] (client) page reload src/components/ui/textarea.tsx
+[2026-02-15T04:32:00.477Z] 11:32:00 PM [vite] (client) page reload src/components/ui/toggle-group.tsx
+[2026-02-15T04:32:00.478Z] 11:32:00 PM [vite] (client) page reload src/components/ui/toggle.tsx
+[2026-02-15T04:32:00.478Z] 11:32:00 PM [vite] (client) page reload src/components/ui/tooltip.tsx
+[2026-02-15T04:32:00.478Z] 11:32:00 PM [vite] (client) page reload src/contexts/ThemeContext.tsx
+[2026-02-15T04:32:00.478Z] 11:32:00 PM [vite] (client) page reload src/hooks/useComposition.ts
+[2026-02-15T04:32:00.479Z] 11:32:00 PM [vite] (client) page reload src/hooks/useMobile.tsx
+[2026-02-15T04:32:00.479Z] 11:32:00 PM [vite] (client) page reload src/hooks/usePersistFn.ts
+[2026-02-15T04:32:00.479Z] 11:32:00 PM [vite] (client) page reload src/lib/utils.ts
+[2026-02-15T04:32:00.479Z] 11:32:00 PM [vite] (client) page reload src/pages/Home.tsx
+[2026-02-15T04:32:00.480Z] 11:32:00 PM [vite] (client) page reload src/pages/NotFound.tsx
